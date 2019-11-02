@@ -2,7 +2,7 @@
 
 namespace WeatherBalloonDataLoader
 {
-    public class Class1
+    public class Bluh
     {
     }
 }
