@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherBalloons", "WeatherBalloons\WeatherBalloons.csproj", "{438CC62D-A642-4699-AF42-F779628B4DFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherBalloonDataLoader", "WeatherBalloonDataLoader\WeatherBalloonDataLoader.csproj", "{BD322F25-F30F-420D-8C89-3C55BA883A38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherBalloonDataSource", "WeatherBalloonDataLoader\WeatherBalloonDataSource.csproj", "{BD322F25-F30F-420D-8C89-3C55BA883A38}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherBalloonInterfaces", "WeatherBalloonInterfaces\WeatherBalloonInterfaces.csproj", "{6D7AD417-EC9C-43CC-B752-25B6C058A962}"
 EndProject

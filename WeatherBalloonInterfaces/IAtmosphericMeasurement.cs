@@ -2,7 +2,8 @@
 
 namespace WeatherBalloonInterfaces
 {
-    public class Class1
+    public class IAtmosphericMeasurement
     {
+
     }
 }
