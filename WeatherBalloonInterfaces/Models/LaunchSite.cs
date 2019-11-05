@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WeatherBalloonDataSource.DataStructures
+namespace WeatherBalloonInterfaces.Models
 {
-    public class LaunchSite
+    public class LaunchSite : ILaunchSite
     {
         public string Id { get; set; }
 

@@ -10,4 +10,15 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherBalloonDatabase\WeatherBalloonInMemoryDatabase.csproj" />
+    <ProjectReference Include="..\WeatherBalloonDataLoader\WeatherBalloonDataSource.csproj" />
+    <ProjectReference Include="..\WeatherBalloonInterfaces\WeatherBalloonInterfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+
 </Project>

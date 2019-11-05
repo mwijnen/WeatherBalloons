@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore;
+﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
+using WeatherBalloonDataSource;
+using WeatherBalloonInterfaces;
+using WeatherBalloons.Repository;
 
 namespace WeatherBalloons
 {
@@ -14,11 +10,21 @@ namespace WeatherBalloons
     {
         public static void Main(string[] args)
         {
+            TempRunProgram();
+
             CreateWebHostBuilder(args).Build().Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
+
+        public static void TempRunProgram()
+        {
+            IWeatherBalloonRepository weatherBalloonRepository = new WeatherBalloonInMemoryRepository();
+            weatherBalloonRepository.SetAtmosphericMeasurements(DataSource.GetAtmosphericMeasurements("bluh"));
+            weatherBalloonRepository.SetLaunchSites(DataSource.GetLaunchSites());
+
+        }
     }
 }

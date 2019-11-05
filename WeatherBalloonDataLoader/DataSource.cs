@@ -24,6 +24,11 @@ namespace WeatherBalloonDataSource
             throw new NotImplementedException();
         }
 
+        public static IList<ILaunchSite> GetLaunchSites()
+        {
+            throw new NotImplementedException();
+        }
+
         //get launch stations all
 
         //get atmospheric measurements per launch station all
