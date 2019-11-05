@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WeatherBalloonDataSource\WeatherBalloonDataSource.csproj" />
+    <ProjectReference Include="..\WeatherBalloonInMemoryDatabase\WeatherBalloonInMemoryDatabase.csproj" />
+    <ProjectReference Include="..\WeatherBalloonInterfaces\WeatherBalloonInterfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Repository\" />
   </ItemGroup>
 

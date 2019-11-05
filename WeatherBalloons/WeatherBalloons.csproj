@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WeatherBalloonDatabase\WeatherBalloonInMemoryDatabase.csproj" />
-    <ProjectReference Include="..\WeatherBalloonDataLoader\WeatherBalloonDataSource.csproj" />
+    <ProjectReference Include="..\WeatherBalloonDataSource\WeatherBalloonDataSource.csproj" />
+    <ProjectReference Include="..\WeatherBalloonInMemoryDatabase\WeatherBalloonInMemoryDatabase.csproj" />
     <ProjectReference Include="..\WeatherBalloonInterfaces\WeatherBalloonInterfaces.csproj" />
   </ItemGroup>
 
